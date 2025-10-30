@@ -1,0 +1,9 @@
+services:
+  db:
+    image: postgres:18.0-alpine
+    restart: always
+    environment:
+      - POSTGRES_PASSWORD=pwd
+    ports:
+      - 5432:5432
+      
