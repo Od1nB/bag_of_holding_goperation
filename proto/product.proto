@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package bagofholding;
+
+option go_package = "pkg/proto/product";
+
+message Product {
+  string name        = 1;
+  int32  id          = 2;
+  string description = 3;
+  int64  stock       = 4;
+}
