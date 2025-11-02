@@ -8,7 +8,3 @@ CREATE TABLE products (
     price       NUMERIC      NOT NULL DEFAULT 0.00
 );
 
-INSERT INTO products
-    (name, description, amount, price)
-VALUES
-    ('shortsword', 'pointy sword that deals piercing 1D6 damage on hit', 13, 10);
