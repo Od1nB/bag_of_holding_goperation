@@ -5,6 +5,8 @@ services:
     environment:
       - POSTGRES_DB=bagofholding
       - POSTGRES_PASSWORD=pwd
+    tmpfs:
+          - /var/lib/postgresql/data
     ports:
       - 5432:5432
     volumes:
