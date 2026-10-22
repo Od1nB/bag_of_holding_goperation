@@ -15,6 +15,6 @@ services:
       watch:
         - path: './db/'
           action: restart
-        - path: 'docker-compose.yml'
+        - path: 'compose.yml'
           action: restart
   
